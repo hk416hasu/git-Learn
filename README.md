@@ -1,7 +1,7 @@
 # git&github食用指北
 
 
-
+- [ ] git/github is so difficult, how to learn as a beginner?
 - [ ] 为什么需要与为什么选择git/github
 - [x] github本地认证方式
 - [ ] VSCode配置git/github
