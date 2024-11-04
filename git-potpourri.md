@@ -9,7 +9,7 @@
 
 - 本来有张AI图的，但生成的实在太不合我意了，我遂亲自出马，作下图：
 
-<img src="/home/hk416/src/git-Learn/pics/hub.png" alt="hub" style="zoom: 67%;" />
+<img src="./pics/hub.png" alt="hub" style="zoom: 67%;" />
 
 ### 2. 为什么需要版本控制工具 / 学了有哪些收获？
 
@@ -21,7 +21,7 @@
 
 - 请看vcr :
 
-<img src="/home/hk416/src/git-Learn/pics/res.png" alt="res" style="zoom: 50%;" />
+<img src="./pics/res.png" alt="res" style="zoom: 50%;" />
 
 ### 3. 为什么选择git 与 github？
 
