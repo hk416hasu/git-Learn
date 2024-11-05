@@ -1,4 +1,12 @@
-## 添加Github与主机间认证
+# 如何利用Github合作？
+
+### 1. 注册github帐号
+- 打开 https://github.com
+  - 打不开? 连WIRELESS-NCEPU可上
+- 点击Sign UP注册帐号
+- 按照流程注册便是，不要忘了注册用的email
+
+### 2. 添加github与主机间认证
 
 ​	首先回答**为什么**要添加Github与主机间认证？
 
@@ -44,11 +52,10 @@
       
       - 点击Add SSH key
       
-      <img src="./pics/add-new-ssh-key.png" alt="add-new-ssh-key" style="zoom:25%;" />
-      
-  - 这样就在github中添加好你的公钥了
 
-      
+<img src="/home/hk416/src/git-Learn/pics/add-new-ssh-key.png" alt="add-new-ssh-key" style="zoom:30%;" />
+
+​	这样就在github中添加好你的公钥了
 
 - 验证
 
@@ -61,4 +68,10 @@
     # Hi hk416hasu! You've successfully authenticated, but GitHub does not provide shell access.
     ```
     
-    
+
+### 3. 利用github合作的一种方式（线下详细讲）
+
+<img src="/home/hk416/src/git-Learn/pics/workflow.jpg" alt="workflow" style="zoom: 80%;" />
+
+这里我们主要讨论该图的上半部分，即远程仓库部分。仓库是什么？可以理解为
+首先，你在github上看到有个蛮不错的开源仓库
