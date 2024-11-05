@@ -6,9 +6,7 @@
   - [x] 为什么需要git/github
   - [x] 学了有哪些收获
   - [x] 新手怎么开始？
-- [ ] git配置
-    - [ ] VSCode配置git/github
-    - [ ] git图形化工具SourceTree
+- [x] git安装与配置
 - [ ] git常用命令
 - [ ] 如何利用github合作？
 - [x] github本地认证方式
