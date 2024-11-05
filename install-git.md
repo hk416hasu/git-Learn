@@ -1,5 +1,12 @@
 # 安装与配置git
 
+### 0. 注册github帐号
+
+- 打开 https://github.com
+  - 打不开? 连WIRELESS-NCEPU可上
+- 点击右上角Sign UP注册帐号
+- 按照流程注册便是，注册用的email在第2步要用
+
 ### 1. 安装git
 
 - Linux
@@ -23,7 +30,7 @@
 
   - 打开terminal
     - linux下就是普通terminal
-    - windows下用git bash吧，长这样 <img src="./pics/git-bash.png" alt="git-bash" style="zoom: 50%;" />，桌面找不到？就在开始菜单里找找
+    - windows下用git bash <img src="./pics/git-bash.png" alt="git-bash" style="zoom: 50%;" />吧，桌面找不到？就在开始菜单里找找
   
   - 输入命令：
   
@@ -40,7 +47,7 @@
 均需配置用户身份:
 
 ```bash
-git config --global user.name "你的大名"
+git config --global user.name "你滴大名"
 git config --global user.email xxx@example.com
 # 理论上 email可以随便填，但最好还是填你注册github用的邮箱
 ```
@@ -52,8 +59,8 @@ git config --global user.email xxx@example.com
 - 第三方独立GUI(图形化)工具: 如SourceTree或GitForWindows
 - IDE(集成开发环境)提供的插件: VSCode中就有git插件，也是图形化的
 
-没有优劣，**喜欢啥用啥**
+没有优劣，**喜欢啥用啥**，满足使用需求即可
 
-这些git插件更具体的配置 网上都有详细教程，我就不写了，太麻烦
+更具体的git工具使用教程请上网搜吧，我就不写了，太麻烦
 
 ### 如果遇到问题可call我，我尽力协助你解决
