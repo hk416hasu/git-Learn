@@ -1,12 +1,19 @@
-# 如何利用Github合作？
+# 如何利用GitHub合作？
+
+写完才想起来应该RTFM(Read The Friendly/Fu*** Manual), 推荐读官方文档：
+
+https://docs.github.com/zh
 
 ### 1. 注册github帐号
 - 打开 https://github.com
   - 打不开? 连WIRELESS-NCEPU可上
-- 点击Sign UP注册帐号
+- 点击右上角Sign UP注册帐号
 - 按照流程注册便是，不要忘了注册用的email
 
 ### 2. 添加github与主机间认证
+
+**官方文档链接**：
+https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows
 
 ​	首先回答**为什么**要添加Github与主机间认证？
 
@@ -16,7 +23,7 @@
 
 - 生成双钥（windows用cmd, linux直接用terminal）
   ```bash
-  ssh-keygen -t rsa -b 4096 -C "xxx@yyy.com" # 此为你注册github用的邮箱
+  ssh-keygen -t rsa -b 4096 -C "xxx@example.com" # 此为你注册github用的邮箱
   ```
     - 然后会提示你可以更改密码文件名，既**可以不改直接回车**，也可以改成好记的密钥名
   
@@ -40,7 +47,7 @@
 
   - 访问 https://github.com/settings/keys
 
-  <img src="./pics/github-ssh.png" style="zoom: 25%;" />
+<img src="./pics/github-ssh.png" style="zoom: 25%;" />
 
   - SSH keys 右边点击 “New SSH key”
 
@@ -53,7 +60,7 @@
       - 点击Add SSH key
       
 
-<img src="/home/hk416/src/git-Learn/pics/add-new-ssh-key.png" alt="add-new-ssh-key" style="zoom:30%;" />
+<img src="/home/hk416/src/git-Learn/pics/add-new-ssh-key.png" alt="add-new-ssh-key" style="zoom:25%;" />
 
 ​	这样就在github中添加好你的公钥了
 
@@ -71,7 +78,20 @@
 
 ### 3. 利用github合作的一种方式（线下详细讲）
 
-<img src="/home/hk416/src/git-Learn/pics/workflow.jpg" alt="workflow" style="zoom: 80%;" />
+<img src="./pics/workflow.jpg" alt="workflow" style="zoom: 80%;" />
 
-这里我们主要讨论该图的上半部分，即远程仓库部分。仓库是什么？可以理解为
-首先，你在github上看到有个蛮不错的开源仓库
+这里我们主要讨论该图的上半部分，即远程仓库部分。（仓库是什么？它存储了一系列代码快照, 可以理解为仓库存储了不同阶段的代码文件夹，但不是简单的复制粘贴）
+
+首先，你在github上看到有个蛮不错的开源仓库, 或者是项目合作用的仓库，叫Project's GitHub repository（源仓库）。
+
+然后，你想参与这个项目的合作：**点击页面上的fork**（fork有复制的意思），会跳出一个新页面，在新页面点击Create fork
+
+![github-repo-page](./pics/github-repo-page.png)
+
+这就已经将该仓库复制到你的帐户下了，即Your GitHub repository. （这个新页面会自己跳出来，就不再截图了，各位可以用本教程仓库hk416hasu/git-Learn仓库练手）
+
+而后你使用git clone将Your GitHub repo下载到本地，进行一系列的修改，最后想把成果提交给源仓库，可以在github中“Open pull request(PR)", ~~如果可以的话，还可以发微信戳源仓库拥有者（也许是你的组长）。~~
+
+稍后源仓库拥有者或维护者会检查PR, 选择采纳或拒绝你的PR。**当然最重要的还是和他们讨论和沟通啦！**
+
+![open-pull-request](./pics/open-pull-request.png)
