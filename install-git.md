@@ -1,6 +1,6 @@
 # 安装与配置git
 
-### 安装git
+## 安装git
 
 - Linux
 
@@ -12,11 +12,12 @@
 - Windows
 
   git官网：https://git-scm.com/（上不去？连WIRELESS-NCEPU可上）
-  
-  上述官网里可找到git**下载地址**：https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe（下不了？连WIRELESS-NCEPU可下）
-  
-  教程：https://blog.csdn.net/weixin_42242910/article/details/136297201
-          **其实一直next就可以了**
+
+  上述官网可找到git**下载地址**, 如：https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe
+
+  安装教程参考：https://blog.csdn.net/weixin_42242910/article/details/136297201  
+
+  ​        **其实一直next就可以了**
 
 - 验证：
 
@@ -46,11 +47,11 @@ git config --global user.email xxx@example.com
 
 ## 使用git的几种方式
 1. 命令行工具: Linux下的terminal 或 Windows下的git-bash
-2. 集成开发环境IDE提供的插件
-3. 第三方独立GUI(图形化)工具: 如SourceTree或GitForWindows
+2. 第三方独立GUI(图形化)工具: 如SourceTree或GitForWindows
+3. IDE(集成开发环境)提供的插件: VSCode中就有git插件，也是图形化的
 
 没有优劣，**喜欢啥用啥**
 
-这些git插件网上都有详细教程，我就不写了，太麻烦
+这些git插件更具体的配置 网上都有详细教程，我就不写了，太麻烦
 
-如果遇到问题可call我，我***线下***尽力协助你解决, 当然简单的问题就线上搞定了
+### 如果遇到问题可call我，我尽力协助你解决
