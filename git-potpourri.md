@@ -21,11 +21,11 @@
 
 - 请看vcr :
 
-<img src="./pics/res.png" alt="res" style="zoom: 50%;" />
+<img src="./pics/res.png" alt="res" style="zoom: 42%;" />
 
 ### 3. 为什么选择git 与 github？
 
-- ~~开源精神, 学会后给开源项目做贡献~~
+- 开源精神, 学会后给开源项目做贡献
 - 老板需要，写简历上加分
 - 比较流行，毕竟git与linux一样，都是Linus一手开发的
 

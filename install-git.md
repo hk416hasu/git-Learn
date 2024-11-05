@@ -1,6 +1,6 @@
 # 安装与配置git
 
-## 安装git
+### 1. 安装git
 
 - Linux
 
@@ -35,7 +35,7 @@
   git version 2.47.0 # 或其他类似的，版本号无所谓
   ```
 
-## 配置git
+### 2. 配置git
 
 均需配置用户身份:
 
@@ -45,10 +45,12 @@ git config --global user.email xxx@example.com
 # 理论上 email可以随便填，但最好还是填你注册github用的邮箱
 ```
 
-## 使用git的几种方式
-1. 命令行工具: Linux下的terminal 或 Windows下的git-bash
-2. 第三方独立GUI(图形化)工具: 如SourceTree或GitForWindows
-3. IDE(集成开发环境)提供的插件: VSCode中就有git插件，也是图形化的
+### 3. 使用git的几种方式
+
+- 命令行工具: Linux下的terminal 或 Windows下的git-bash
+
+- 第三方独立GUI(图形化)工具: 如SourceTree或GitForWindows
+- IDE(集成开发环境)提供的插件: VSCode中就有git插件，也是图形化的
 
 没有优劣，**喜欢啥用啥**
 
