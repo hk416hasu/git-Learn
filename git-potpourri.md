@@ -21,7 +21,7 @@
 
 - 请看vcr :
 
-<img src="./pics/res.png" alt="res" style="zoom: 42%;" />
+<img src="./pics/res.png" alt="res"  />
 
 ### 3. 为什么选择git 与 github？
 
