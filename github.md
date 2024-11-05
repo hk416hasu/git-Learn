@@ -60,7 +60,7 @@ https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generati
       - 点击Add SSH key
       
 
-<img src="/home/hk416/src/git-Learn/pics/add-new-ssh-key.png" alt="add-new-ssh-key" style="zoom:25%;" />
+<img src="./pics/add-new-ssh-key.png" alt="add-new-ssh-key" style="zoom:25%;" />
 
 ​	这样就在github中添加好你的公钥了
 
@@ -90,8 +90,8 @@ https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generati
 
 这就已经将该仓库复制到你的帐户下了，即Your GitHub repository. （这个新页面会自己跳出来，就不再截图了，各位可以用本教程仓库hk416hasu/git-Learn仓库练手）
 
-而后你使用git clone将Your GitHub repo下载到本地，进行一系列的修改，最后想把成果提交给源仓库，可以在github中“Open pull request(PR)", ~~如果可以的话，还可以发微信戳源仓库拥有者（也许是你的组长）。~~
+而后你可以开心地使用git clone将Your GitHub repo下载到本地，进行一系列的修改。倘若你想把成果提交给源仓库，为开源项目做贡献，请在github中“Open pull request(PR)"。~~如果可能的话，不妨发微信戳一戳源仓库拥有者（也许是你的组长）。~~
 
-稍后源仓库拥有者或维护者会检查PR, 选择采纳或拒绝你的PR。**当然最重要的还是和他们讨论和沟通啦！**
+稍后源仓库拥有者或维护者会检查PR, 并选择采纳或拒绝。**当然最重要的还是和他们讨论和沟通啦！**
 
 ![open-pull-request](./pics/open-pull-request.png)
