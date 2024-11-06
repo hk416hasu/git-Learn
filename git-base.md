@@ -48,7 +48,41 @@ git branch -M main			 # 修改分支名称为main
 
 **推荐观看 [The Missing Semester - 版本控制(Git)](https://www.bilibili.com/video/BV1Wh4y1s7Lj/)**
 
-### 3. 在github新建一个仓库
+### 3. git常用命令
+
+在类Unix系统中，命令通常有一些选项，这里无法一一列举，
+可以使用`git help`查看 或 向友好的AI提问。
+
+#### git基本命令
+
+- `git help <command>` : 查阅git command的说明书/手册
+
+- `git init` : 初始化一个新仓库
+- `git status` : 查看当前仓库状态
+- `git add <file>` : 将workspace（工作空间）中的指定file添加到index（暂存区）中
+- `git commit` : 将index（暂存区）中的文件提交到local repo（本地仓库）中
+- `git diff` : 比较两个副本之间的差异，默认比较workspace与index
+- `git checkout` : 切换副本
+
+#### git高级命令
+
+- `git branch` : git分支大类，可以创建/切换/查阅分支信息
+
+- `git merge <branch-name>` : 将branch-name这一分支合并到当前分支
+
+  git会聪明地合并无冲突的文件，但如果有冲突 -> 它会报错并申请转人工 -> 然后你需要手动地修改有冲突的文件 -> `git add`修改后的文件 -> `git merge --continue`
+
+  - ~~`git rebase`~~ : 变基合并，会带来麻烦，《Pro Git》建议不要使用，否则同事会埋怨你，家人和朋友会鄙视你。
+
+#### git远程命令
+
+- `git clone <url>` : 克隆url处的文件
+- `git remote` : 设置远程仓库
+- `git push` : 用本地仓库更新远程仓库
+- `git fetch` : 抓取远程仓库的更新至本地，但还没有merge（合并）
+- `git pull` : 可以理解为 git fetch + git merge
+
+### 4. 在github新建一个仓库
 
 打开这个链接，注意改一下名字：https://github.com/YourName?tab=repositories
 
