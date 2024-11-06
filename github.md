@@ -64,6 +64,8 @@ https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generati
 
 ​	这样就在github中添加好你的公钥了
 
+<div STYLE="page-break-after: always;"></div>
+
 - 验证
 
     ```bash
@@ -95,3 +97,17 @@ https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generati
 稍后源仓库拥有者或维护者会检查PR, 并选择采纳或拒绝。**当然最重要的还是和他们讨论和沟通啦！**
 
 ![open-pull-request](./pics/open-pull-request.png)
+
+### 4. 在github新建一个仓库
+
+打开这个链接，注意改一下名字：https://github.com/YourName?tab=repositories
+
+- 点击右上角的New
+  ![my-repo-page](/home/hk416/src/git-Learn/pics/my-repo-page.png)
+
+- 简单输入一下仓库名就行
+  ![new-repo](/home/hk416/src/git-Learn/pics/new-repo.png)
+
+- 然后就建好仓库了, 可以**根据页面上的提示**新建本地仓库。
+  该方法简单就简单在：可以直接复制github提示的命令，但GUI工具用不了。
+  ![github-new-repo-done](./pics/github-new-repo-done.png)
