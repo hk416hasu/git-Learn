@@ -1,6 +1,6 @@
 # git常用命令
 
-<img src="./pics/workflow.jpg" alt="workflow" style="zoom: 67%;" /><img src="./pics/git_map.jpg" alt="git_map" style="zoom: 67%;" />
+<img src="./pics/workflow.jpg" alt="workflow" style="zoom: 60%;" /><img src="./pics/git_map.jpg" alt="git_map" style="zoom: 60%;" />
 
 左右两张图展示了git的基本工作流程，几乎是一样的，只是没有Project's Github repository
 
